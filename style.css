@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.principal{
+    width: 800px;
+    height: 800px;
+    background-color: aquamarine;
+    display:flex ;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+.columna{
+    height: 100px;
+    width: 80dvw;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.columna span{
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+}
